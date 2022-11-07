@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+.navbar{
+    background-color: pink;
+}
+section{
+    background-color: pink;
+}
+.slide{
+    position: relative;
+}
+.welcome{
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 100px;
+    color: red;
+}
+.active>a{
+    color: red;
+}
+.product-wrap{
+    position: relative;
+}
+.product-info{
+    position: absolute;
+    margin:50% 30%;
+    text-align: center;
+    color: blue;
+}
+.product-info a{
+    color: red;
+    border: 2px solid white;
+    font-size: small;
+}
+.product-info>.btn:hover{
+    background-color:white !important;
+    color: blue !important;
+}
+.card{
+    color: red;
+    text-align: center;
+}
+.card-text >span{
+    color: black;
+    font-weight: bold;
+}
+.card-body>a:hover{
+    background-color: blue;
+}
+.product-list{
+    list-style: none;
+}
+.login .card{
+    text-align: justify !important;
+
+}
+
+.login-footer{
+    width: auto;
+    height: 350px;
+}
